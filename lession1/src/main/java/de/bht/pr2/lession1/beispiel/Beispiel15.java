@@ -15,11 +15,11 @@ public class Beispiel15 {
       String antwort = tastatur.nextLine();
       if (!antwort.equalsIgnoreCase("ja") &&
           !antwort.equalsIgnoreCase("nein")) {
-        WederJaNochNeinAusnahme ausnahme =
-            new WederJaNochNeinAusnahme("Benutzer hat eingetippt: " + antwort);
+        NeitherYesOrNoException ausnahme =
+            new NeitherYesOrNoException("Benutzer hat eingetippt: " + antwort);
         throw ausnahme;
       }
-    } catch (WederJaNochNeinAusnahme e) {
+    } catch (NeitherYesOrNoException e) {
       System.out.println("-----");
       System.out.println("Falsche Antwort von Benutzer");
       System.out.println(e);
