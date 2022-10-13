@@ -1,4 +1,4 @@
-package de.bht.pr2.lession1.gruppen;
+package de.bht.pr2.lession01.gruppen;
 
 import java.util.Scanner;
 

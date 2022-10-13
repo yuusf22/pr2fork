@@ -1,4 +1,4 @@
-package de.bht.pr2.lession1.beispiel;
+package de.bht.pr2.lession01.beispiel;
 
 public class Beispiel3 {
 

@@ -1,8 +1,8 @@
-package de.bht.pr2.lession1.beispiel;
+package de.bht.pr2.lession01.beispiel;
 
-public class Beispiel5 {
+public class Beispiel4 {
 
-  // Ein catch-Block, mehrere Ausnahmen
+  // Mehrere catch-Bloecke
 
   public static void main(String[] args) {
     double division = 0d; // Schon Platz reservieren
@@ -14,8 +14,12 @@ public class Beispiel5 {
 
       int[] array = {1, 2, 3, 4, 5};
       array[5] = 100;
-    } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
+    } catch (ArithmeticException e) {
       System.out.println("!!! Ausnahme:");
+      System.out.println(e);
+      division = 0; // Default-Wert zuweisen
+    } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("!!! Ausnahme mit einem Array:");
       System.out.println(e);
     }
 

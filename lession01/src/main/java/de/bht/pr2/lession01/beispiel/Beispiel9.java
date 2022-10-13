@@ -1,4 +1,4 @@
-package de.bht.pr2.lession1.beispiel;
+package de.bht.pr2.lession01.beispiel;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
