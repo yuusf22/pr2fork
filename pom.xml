@@ -13,7 +13,8 @@
   <name>pr2 - Programmierung II</name>
 
   <modules>
-    <module>lession1</module>
+    <module>lession01</module>
+    <module>lab01</module>
   </modules>
 
   <dependencies>
