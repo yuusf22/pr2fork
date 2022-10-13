@@ -17,7 +17,7 @@ public class GruppenProgrammieren2 {
 
   public static void main(String[] args) {
     try {
-      dateiOeffnen("lession1/src/main/java/de/bht/pr2/lession1/beispiel/Beispiel6.java");
+      dateiOeffnen("lession01/src/main/java/de/bht/pr2/lession01/beispiel/Beispiel6.java");
     } catch (FileNotFoundException e) {
       System.out.println("Datei nicht gefunden");
       System.out.println(e);
