@@ -1,4 +1,4 @@
-package beuth;
+package de.bht.pr2.lab01;
 
 import java.util.ArrayList;
 import java.util.List;
