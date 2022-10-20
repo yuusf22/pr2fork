@@ -3,6 +3,9 @@ package de.bht.pr2.lab01;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The main class.
+ */
 public class Lab1Main {
 
   public static void main(String[] args) {
