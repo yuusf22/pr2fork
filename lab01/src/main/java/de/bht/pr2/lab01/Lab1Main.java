@@ -30,6 +30,7 @@ public class Lab1Main {
     data.add("Ute Ulrich,70021,Screen Based Media,312");
     data.add("Vera Vesper,70022,Medieninformatik,312");
     data.add("Walter Welt,70023,Medieninformatik"); // Zu wenig Daten
+    data.add(",,"); // Zu wenig Daten
     data.add("Xena Xylophon,70024,Screen Based Media,312");
     data.add("Yannik Yoga,70025,Druck- und Medientechnik,312");
     data.add("Zoe Zoo,70026,Technische Informatik,312");
