@@ -1,16 +1,18 @@
-package de.bht.pr2.lession02.gruppen;
+package group_programming;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import de.bht.pr2.lession02.gruppen.SomeMathClass;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class GruppenProgrammieren {
+class GroupProgrammingTest {
 
   @Test
   void testMathe() {
     int a = 10;
     int b = 20;
-    assertEquals(170, SomeMathClass.mathe(a, b));
+    Assertions.assertEquals(170, SomeMathClass.mathe(a, b));
   }
 
   @Test
