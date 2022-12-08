@@ -6,18 +6,16 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class Beispiel4 {
+public class Example04 {
 
   // Bei Deserialisierung wird Konstruktor nicht aufgerufen
 
-  private static Auto auto = null;
-
-  private static Auto deserialize() {
+  private static Car deserialize(String path) {
     try {
-      FileInputStream fis = new FileInputStream("lession06/src/main/resources/Auto.ser");
+      FileInputStream fis = new FileInputStream(path);
       ObjectInputStream ois = new ObjectInputStream(fis);
 
-      final Auto auto1 = (Auto) ois.readObject();
+      final Car auto1 = (Car) ois.readObject();
       ois.close();
       fis.close();
       return auto1;
@@ -27,11 +25,11 @@ public class Beispiel4 {
     return null;
   }
 
-  private static void serialize() {
+  private static void serialize(Car car, String path) {
     try {
-      FileOutputStream fos = new FileOutputStream("lession06/src/main/resources/Auto.ser");
+      FileOutputStream fos = new FileOutputStream(path);
       ObjectOutputStream oos = new ObjectOutputStream(fos);
-      oos.writeObject(auto);
+      oos.writeObject(car);
       oos.close();
       fos.close();
     } catch (IOException e) {
@@ -40,11 +38,12 @@ public class Beispiel4 {
   }
 
   public static void main(String[] args) {
-    auto = new Auto("Anna", "VW", "gelb", "Berlin", 10000);
-    System.out.println(auto.getNavi());
 
-    serialize();
-    final Auto deserializedAuto = deserialize();
+    final Car car = new Car("Anna", "VW", "gelb", "Berlin", 10000);
+    System.out.println(car.getNavi());
+
+    serialize(car, "lession06/src/main/resources/Auto.ser");
+    final Car deserializedAuto = deserialize("lession06/src/main/resources/Auto.ser");
 
     System.out.println(deserializedAuto.getNavi());
   }

@@ -1,6 +1,6 @@
 package de.bht.pr2.lession06;
 
-import de.bht.pr2.lession06.example04.Auto;
+import de.bht.pr2.lession06.example04.Car;
 import java.io.Serial;
 import java.io.Serializable;
 
@@ -15,7 +15,7 @@ public class Cat implements Serializable {
   private transient boolean sleeps = true;
   private transient final int transientInt = 10;
   private transient final String transientString = "ein String";
-  private transient final Auto transientAuto = new Auto("Anna", "VW", "gelb", "Berlin", 10000);
+  private transient final Car transientAuto = new Car("Anna", "VW", "gelb", "Berlin", 10000);
   private static int numberOfCats = 0;
   public static final String FAVORITE_FOOD = "fisch";
 
@@ -36,7 +36,7 @@ public class Cat implements Serializable {
     return emoji;
   }
 
-  public Auto getTransientAuto() {
+  public Car getTransientAuto() {
     return transientAuto;
   }
 
