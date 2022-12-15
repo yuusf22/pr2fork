@@ -1,15 +1,8 @@
 package de.bht.pr2.lession07;
 
-import java.io.Serial;
-import java.io.Serializable;
 import java.util.Objects;
 
-public class Car implements Serializable {
-
-  //------------------------------
-  // Attribute
-  @Serial
-  private static final long serialVersionUID = -4410311189408169242L;
+public class Car {
   private String owner = "";
   private String model = "";
   private String color = "";

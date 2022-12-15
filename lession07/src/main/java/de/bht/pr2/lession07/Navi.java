@@ -1,15 +1,9 @@
 package de.bht.pr2.lession07;
 
-import java.io.Serial;
-import java.io.Serializable;
 import java.util.Objects;
 
-public class Navi implements Serializable {
+public class Navi {
 
-  //------------------------------
-  // Attribute
-  @Serial
-  private static final long serialVersionUID = 3111992515588084795L;
   private String model = "unbekannt";
   private String voice = "weiblich"; // maennlich oder weiblich
 
@@ -29,7 +23,7 @@ public class Navi implements Serializable {
 
   //------------------------------
   // Methode
-  public void leiten(String address) {
+  public void route(String address) {
     System.out.println("Die Route nach " + address + " wird gesucht...");
     System.out.println("Die Route ist gefunden.");
     System.out.println("Bitte in 300 Metern links abbiegen.");
