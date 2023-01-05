@@ -1,4 +1,4 @@
-package org.vaadin.example.ui;
+package de.bht.pr2.lession08.ui;
 
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -8,8 +8,8 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.HighlightConditions;
 import com.vaadin.flow.router.RouterLink;
-import org.vaadin.example.ui.contacts.ContactsView;
-import org.vaadin.example.ui.hello.HelloView;
+import de.bht.pr2.lession08.ui.contacts.ContactsView;
+import de.bht.pr2.lession08.ui.hello.HelloView;
 
 public class MainLayout extends AppLayout {
 

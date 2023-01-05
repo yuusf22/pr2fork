@@ -1,4 +1,4 @@
-package org.vaadin.example.ui.hello;
+package de.bht.pr2.lession08.ui.hello;
 
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
@@ -9,8 +9,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.vaadin.example.backend.HelloService;
-import org.vaadin.example.ui.MainLayout;
+import de.bht.pr2.lession08.backend.HelloService;
+import de.bht.pr2.lession08.ui.MainLayout;
 
 /**
  * A sample Vaadin view class.

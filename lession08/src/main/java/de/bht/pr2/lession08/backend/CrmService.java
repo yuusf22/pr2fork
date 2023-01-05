@@ -1,11 +1,11 @@
-package org.vaadin.example.backend;
+package de.bht.pr2.lession08.backend;
 
 import java.util.LinkedList;
 import java.util.List;
 import org.springframework.stereotype.Service;
-import org.vaadin.example.data.Company;
-import org.vaadin.example.data.Contact;
-import org.vaadin.example.data.Status;
+import de.bht.pr2.lession08.data.Company;
+import de.bht.pr2.lession08.data.Contact;
+import de.bht.pr2.lession08.data.Status;
 
 @Service
 public class CrmService {

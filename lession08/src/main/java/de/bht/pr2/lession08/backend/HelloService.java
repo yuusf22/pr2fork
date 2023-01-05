@@ -1,4 +1,4 @@
-package org.vaadin.example.backend;
+package de.bht.pr2.lession08.backend;
 
 import java.io.Serializable;
 

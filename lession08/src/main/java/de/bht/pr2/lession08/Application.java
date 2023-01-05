@@ -1,4 +1,4 @@
-package org.vaadin.example;
+package de.bht.pr2.lession08;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.server.PWA;

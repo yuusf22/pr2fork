@@ -1,4 +1,4 @@
-package org.vaadin.example.ui.contacts;
+package de.bht.pr2.lession08.ui.contacts;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
@@ -12,9 +12,9 @@ import com.vaadin.flow.router.Route;
 import javax.annotation.security.PermitAll;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.vaadin.example.backend.CrmService;
-import org.vaadin.example.data.Contact;
-import org.vaadin.example.ui.MainLayout;
+import de.bht.pr2.lession08.backend.CrmService;
+import de.bht.pr2.lession08.data.Contact;
+import de.bht.pr2.lession08.ui.MainLayout;
 
 
 @Component

@@ -1,4 +1,4 @@
-package org.vaadin.example.data;
+package de.bht.pr2.lession08.data;
 
 import java.util.UUID;
 

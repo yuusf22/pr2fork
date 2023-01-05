@@ -1,4 +1,4 @@
-package org.vaadin.example.ui.contacts;
+package de.bht.pr2.lession08.ui.contacts;
 
 import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.ComponentEventListener;
@@ -15,9 +15,9 @@ import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.data.binder.ValidationException;
 import com.vaadin.flow.shared.Registration;
 import java.util.List;
-import org.vaadin.example.data.Company;
-import org.vaadin.example.data.Contact;
-import org.vaadin.example.data.Status;
+import de.bht.pr2.lession08.data.Company;
+import de.bht.pr2.lession08.data.Contact;
+import de.bht.pr2.lession08.data.Status;
 
 public class ContactForm extends FormLayout {
   private Contact contact;
