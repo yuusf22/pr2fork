@@ -1,11 +1,11 @@
-package org.vaadin.example;
+package org.vaadin.example.backend;
 
 import java.io.Serializable;
 
 import org.springframework.stereotype.Service;
 
 @Service
-public class GreetService implements Serializable {
+public class HelloService implements Serializable {
 
     public String greet(String name) {
         if (name == null || name.isEmpty()) {
