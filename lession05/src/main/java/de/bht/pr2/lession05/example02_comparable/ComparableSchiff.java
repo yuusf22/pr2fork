@@ -4,8 +4,8 @@ public class ComparableSchiff implements Comparable<ComparableSchiff> {
 
   // Attribute
   protected String name = "";
-  protected int laenge = 0;
-  protected int breite = 0;
+  protected Integer laenge = 0;
+  protected Integer breite = 0;
 
   // Konstruktor
   public ComparableSchiff(String name, int laenge, int breite) {
@@ -30,19 +30,19 @@ public class ComparableSchiff implements Comparable<ComparableSchiff> {
       return i;
     }
 
-    final int j = Integer.compare(this.getLaenge(), b.getLaenge());
+    final int j = this.getLaenge().compareTo(b.getLaenge());
     if (j != 0) {
       return j;
     }
 
-    return Integer.compare(this.getBreite(), b.getBreite());
+    return this.getBreite().compareTo(b.getBreite());
   }
 
-  public int getBreite() {
+  public Integer getBreite() {
     return breite;
   }
 
-  public int getLaenge() {
+  public Integer getLaenge() {
     return laenge;
   }
 

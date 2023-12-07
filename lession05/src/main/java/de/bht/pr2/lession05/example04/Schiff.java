@@ -6,16 +6,16 @@ public class Schiff {
 
   // Attribute
   protected String name = "";
-  protected int laenge = 0;
-  protected int breite = 0;
+  protected Integer laenge = 0;
+  protected Integer breite = 0;
   protected String besitzerName = "";
 
   // Konstruktoren
-  public Schiff(String name, int laenge, int breite) {
+  public Schiff(String name, Integer laenge, Integer breite) {
     this(name, laenge, breite, "unbekannt");
   }
 
-  public Schiff(String name, int laenge, int breite, String besitzerName) {
+  public Schiff(String name, Integer laenge, Integer breite, String besitzerName) {
     this.name = name;
     this.laenge = laenge;
     this.breite = breite;
@@ -27,11 +27,11 @@ public class Schiff {
     return besitzerName;
   }
 
-  public int getBreite() {
+  public Integer getBreite() {
     return breite;
   }
 
-  public int getLaenge() {
+  public Integer getLaenge() {
     return laenge;
   }
 
@@ -43,11 +43,11 @@ public class Schiff {
     this.besitzerName = besitzerName;
   }
 
-  public void setBreite(int breite) {
+  public void setBreite(Integer breite) {
     this.breite = breite;
   }
 
-  public void setLaenge(int laenge) {
+  public void setLaenge(Integer laenge) {
     this.laenge = laenge;
   }
 
