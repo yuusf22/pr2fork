@@ -23,7 +23,7 @@ public class Example03a {
         oos.close();
         fos.close();
       } catch (IOException e) {
-        e.printStackTrace();
+        throw new RuntimeException(e);
       }
     }
   }

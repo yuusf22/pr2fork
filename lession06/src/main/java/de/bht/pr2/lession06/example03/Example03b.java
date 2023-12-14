@@ -23,7 +23,7 @@ public class Example03b {
         ois.close();
         fis.close();
       } catch (IOException | ClassNotFoundException e) { // HHH
-        e.printStackTrace();
+        throw new RuntimeException(e);
       }
     }
   }
