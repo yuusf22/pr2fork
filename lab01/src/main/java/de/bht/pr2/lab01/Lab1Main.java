@@ -52,7 +52,7 @@ public class Lab1Main {
     System.out.println("List of Student objects:");
     for (Student student : students) {
       System.out.println(student);
-      System.out.println("hello worldee");
+      System.out.println("hello worldeee");
     }
   }
 }
